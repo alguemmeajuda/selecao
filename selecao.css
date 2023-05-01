@@ -7,22 +7,31 @@ div {
   margin: 50px;
 }
 
+img {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
 figure {
   width: 150px;
   height: 120px;
   display: inline-block;
   padding: 30px 30px 40px 40px;
   backdrop-filter: blur(9px);
- background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,0.5802696078431373) 0%, rgba(0,0,0,0.21332282913165268) 100%);
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.5802696078431373) 0%,
+    rgba(0, 0, 0, 0.21332282913165268) 100%
+  );
   border-radius: 8px;
 }
 
 figcaption {
-  Text-align: center; 
+  text-align: center;
   padding-top: 20px;
   color: white;
-  	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
 }
 
 body {
