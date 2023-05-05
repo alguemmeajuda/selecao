@@ -1,40 +1,67 @@
-div {
-  backdrop-filter: blur(4px) saturate(110%);
-  -webkit-backdrop-filter: blur(4px) saturate(110%);
-  background-color: rgba(107, 53, 129, 0.59);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  margin: 50px;
+@import url('https://fonts.cdnfonts.com/css/copperplate-gothic-light');
+
+
+#a {
+    border: 10px solid white;
+    width: 250px;
+    height: 500px;
+}
+
+#b {
+    backdrop-filter: blur(4px) saturate(110%);
+    -webkit-backdrop-filter: blur(4px) saturate(110%);
+    background-color: rgba(107, 53, 129, 0.59);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin: 0px 50px 300px 300px;
+    width: 925px;
+}
+
+#c {
+    border: 10px solid white;
+    width: 250px;
+    height: 500px;
+    margin-left: 1270px;
 }
 
 img {
-  border: 0.5px solid white;
-  border-radius: 5px;
+    border: 0.5px solid white;
+    border-radius: 5px;
 }
 
 figure {
-  width: 150px;
-  height: 120px;
-  display: inline-block;
-  padding: 30px 30px 40px 40px;
-  backdrop-filter: blur(9px);
-  background: rgb(0, 0, 0);
-  background: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0.5802696078431373) 0%,
-    rgba(0, 0, 0, 0.21332282913165268) 100%
-  );
-  border-radius: 8px;
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+    padding: 30px 30px 40px 40px;
+    backdrop-filter: blur(9px);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle,
+            rgba(0, 0, 0, 0.5802696078431373) 0%,
+            rgba(0, 0, 0, 0.21332282913165268) 100%);
+    border-radius: 8px;
 }
 
 figcaption {
-  text-align: center;
-  padding-top: 20px;
-  color: white;
-  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Copperplate Gothic Light', sans-serif;
 }
 
 body {
-  background-image: url("https://external-preview.redd.it/WMuqPwkN5ExZ1wmaoCf2T06BV7MFSahkPkLM-ZJTLiY.png?format=pjpg&auto=webp&s=4f81f1b21e36e04224f0ba0fe24efbb23664f60e");
-  background-position: center;
+    background-image: url("https://external-preview.redd.it/WMuqPwkN5ExZ1wmaoCf2T06BV7MFSahkPkLM-ZJTLiY.png?format=pjpg&auto=webp&s=4f81f1b21e36e04224f0ba0fe24efbb23664f60e");
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(44, 36, 65);
+}
+
+#s {
+    width: 700px;
+    height: 100px;
+    margin-left: 425px;
 }
